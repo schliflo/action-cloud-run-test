@@ -11,7 +11,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: Deploy service to Cloud Run
-        uses: schliflo/action-cloud-run@feature/github-deployments
+        uses: schliflo/action-cloud-run@feature_github-deployments
         with:
           project: ${{ secrets.GCP_PROJECT }}
           service_name: cloud-run-action-test
