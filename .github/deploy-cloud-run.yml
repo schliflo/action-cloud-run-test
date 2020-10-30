@@ -14,7 +14,7 @@ jobs:
         uses: schliflo/action-cloud-run@feature/github-deployments
         with:
           project: ${{ secrets.GCP_PROJECT }}
-          service_name: story-server
+          service_name: action-test
           key: ${{ secrets.GCP_SA_KEY }}
           env:
             GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
