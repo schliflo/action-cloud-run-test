@@ -17,5 +17,3 @@ jobs:
           project: ${{ secrets.GCP_PROJECT }}
           service_name: cloud-run-action-test
           key: ${{ secrets.GCP_SA_KEY }}
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
