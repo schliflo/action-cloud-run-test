@@ -1,4 +1,4 @@
-name: Deploy to Cloud Run
+name: "Cloud Run: Deploy Service"
 
 on:
   workflow_dispatch:
