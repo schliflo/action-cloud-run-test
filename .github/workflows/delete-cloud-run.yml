@@ -1,4 +1,4 @@
-name: Deploy to Cloud Run
+name: "Cloud Run: Delete Service"
 
 on:
   workflow_dispatch:
