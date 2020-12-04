@@ -1,1 +1,3 @@
 FROM nginx
+
+echo "<h1>test branch 1337</h1>" > /usr/share/nginx/html/index.html
