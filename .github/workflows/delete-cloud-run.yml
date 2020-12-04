@@ -5,8 +5,8 @@ on:
   delete:
 
 jobs:
-  deploy:
-    name: Deploy
+  delete:
+    name: Delete
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
