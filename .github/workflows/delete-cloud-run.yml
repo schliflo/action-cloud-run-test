@@ -12,7 +12,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       - name: "Cloud Run: Delete Service"
-        uses: schliflo/action-cloud-run@feature/github-deployments
+        uses: schliflo/action-cloud-run@master
         with:
           project: ${{ secrets.GCP_PROJECT }}
           service_name: cloud-run-action-test
